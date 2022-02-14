@@ -140,4 +140,42 @@ body {
 .container {
 	width: 800px;
 	margin: auto;
+	background-color: white;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+	text-decoration: underline;
+}
+
+.header a:active {
+	background-color: lightskyblue;
+	color: black;
+	text-decoration: underline;
+}
+
+.hero {
+	width: 250px;
 }
