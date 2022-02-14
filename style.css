@@ -227,3 +227,12 @@ body {
 	text-align: center;
 	font-size: 12px;
 }
+
+.footer .foot a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.footer .foot a:hover {
+	text-decoration: underline;
+}
